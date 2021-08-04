@@ -2,20 +2,9 @@ package day5;
 
 import java.util.Scanner;
 
-public class AreaOfQuadilateral  {
+public class AreaOfQuadilateral extends Area {
 
-	static double areaOfQuadilateral(double l, double b)
-	{
-		return l*b;
-	}
-	static double areaOfQuadilateral(double s)
-	{
-		return s*s;
-	}
-	static double areaOfQuadilateral(double a,double b,double h )
-	{
-		return(a+b)* h/2;
-	}
+	
 	
 	public static void main(String[] args)
 	{
@@ -49,7 +38,7 @@ public class AreaOfQuadilateral  {
 			System.out.println("Area of trapezium is:");
 			System.out.println(areaOfQuadilateral(l,b,h));
 		}
-		sc.close();
+		sc.close(); 
 		
 	}
 }
